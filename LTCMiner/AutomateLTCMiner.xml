@@ -1,0 +1,63 @@
+<!-- Katalon Recorder 5.3.1 -->
+<!-- Using this automation recording on LTCMiner.com, when Crypto Address already saved -->
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCase>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://ltcminer.com/]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=submit-btn]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>selectFrame</command>
+	<target><![CDATA[index=1]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=checkbox]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<!-- Set A Breakpoint Here -->
+<selenese>
+	<command>selectFrame</command>
+	<target><![CDATA[relative=parent]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=recaptcha-btn]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<!-- Set A Breakpoint Here -->
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=(//button[@type='button'])[2]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=(//button[@type='button'])[3]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[link=Home]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=(//button[@type='button'])[6]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<!-- Close the tab window -->
+<selenese>
+	<command>close</command>
+	<target><![CDATA[win_ser_local]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+</TestCase>
